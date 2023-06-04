@@ -22,7 +22,6 @@ nosetests.xml
 *.ipch
 .vs/
 output/
-include/
 *.exp
 *.pdb
 *.lib
@@ -40,6 +39,5 @@ obj.*
 *.vcxproj.FileListAbsolute.txt
 *.vcxprojAssemblyReference.cache
 
-/build/
-/CMakeFiles/
+build/
 CMakeCache.txt
