@@ -13,8 +13,6 @@ ROOT = .
 all:
     cd "$(MAKEDIR)"
     @if exist "$(MAKEDIR)\core\makefile" cd "$(MAKEDIR)\core" && $(MAKE) /NOLOGO /$(MAKEFLAGS)
-    cd "$(MAKEDIR)\src"
-    @$(MAKE) /NOLOGO /$(MAKEFLAGS)
     cd "$(MAKEDIR)\samples"
     @$(MAKE) /NOLOGO /$(MAKEFLAGS)
     cd "$(MAKEDIR)\tests"
